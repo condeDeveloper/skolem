@@ -1,0 +1,14 @@
+{
+  "name": "skolem",
+  "version": "1.0.0",
+  "description": "Sequencias de Skolem e a ponte medida ate as de Langford",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "main": "src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  }
+}
